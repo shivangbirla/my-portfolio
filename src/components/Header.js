@@ -4,7 +4,7 @@ import Logo from "../assets/new-logo.svg.png";
 
 const Header = () => {
   return (
-    <header className="py-8">
+    <header className="py-2 pt-[40px]">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
