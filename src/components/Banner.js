@@ -61,22 +61,22 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-Ig mx-auto Ig:mx-0 text-[#adb5bd]"
+              className=" mt-10 mb-5 max-w-Ig mx-auto Ig:mx-0 text-[#adb5bd]"
             >
               I'm an avid full stack developer, combining my passion for design
               with a relentless enthusiasm for crafting seamless and intuitive
               user experiences. From frontend to backend, I thrive on bringing
               ideas to life through elegant code and pixel-perfect designs.
             </motion.p>
-            <div className="flex justify-between sm-flex-col">
+            <div className="flex justify-between sm:flex flex-col gap-0">
               <motion.div
                 variants={fadeIn("up", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:ml-[30%]"
+                className="flex max-w-max gap-x-6 items-center mb-7 mx-auto lg:ml-[30%]"
               >
-                <h2 className="text-[32px] font-medium leading-[1] border-solid border-2 text-sky-400 border-sky-500 rounded-lg p-2 lg:mx-0 mt-0 mb-10">
+                <h2 className="text-[32px] font-medium leading-[1] border-solid border-2 text-sky-400 border-sky-500 rounded-lg p-2 lg:mx-0 mt-8 mb-0">
                   Connect with me
                 </h2>
               </motion.div>
@@ -86,7 +86,7 @@ const Banner = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex text-[30px] gap-x-6 mx-auto max-w-max lg: mb-5 mt-3 lg:mr-[30%]"
+                className="flex text-[30px] gap-x-6 mx-auto max-w-max lg:mb-10 mb-20 mt-0 lg:mr-[30%]"
               >
                 <a href="https://www.linkedin.com/in/shivang-birla-387254253/">
                   <FaLinkedinIn />

@@ -19,7 +19,7 @@ const services = [
   {
     name: "Open Source Contributor",
     description:
-      "Open source contributors actively participate in the development and improvement of open source projects, fostering collaboration and innovation within the software community.",
+      "Open source contributors actively participate in the development and improvement of open source projects, collaboration and innovation within the community.",
     link: "learn more",
   },
   // {

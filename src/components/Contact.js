@@ -48,7 +48,7 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 border rounded-2xl border-[#ced4da] flex flex-col gap-y-6 pb-8 p-6 items-start"
+            className="flex-1 border rounded-2xl border-[#ced4da] flex flex-col gap-y-5 pb-10 p-6 items-start"
           >
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all"
@@ -83,7 +83,7 @@ const Contact = () => {
               </p>
             )}
             <textarea
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all resize-none mb-12"
+              className="bg-transparent border-b py-0 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all resize-none mb-12"
               placeholder="Your message"
               type="text"
               name="message"
@@ -102,7 +102,7 @@ const Contact = () => {
                   "Max length is 2000 char."}
               </p>
             )}
-            <button type="submit" className="btn btn-lg text-[#adb5bd]">
+            <button type="submit" className="btn btn-lg text-[#adb5bd] mt-0">
               Send message
             </button>
           </motion.form>

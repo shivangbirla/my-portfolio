@@ -18,7 +18,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-5 mb-8 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-6 mb-8 lg:mb-0"
           >
             <div>
               <h2 className="h2 leading-tight  text-accent">My Latest Work.</h2>
@@ -31,7 +31,7 @@ const Work = () => {
                 <a href="https://github.com/shivangbirla">View my projects</a>
               </button>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-auto w-[500px]">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:h-auto lg:w-[500px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -56,9 +56,9 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-5"
+            className="flex-1 flex flex-col gap-y-8"
           >
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-auto w-[500px]">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:h-auto lg:w-[500px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -77,7 +77,7 @@ const Work = () => {
                 <span className="text-3xl text-white"></span>
               </div>
             </div>
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl h-auto w-[500px]">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:h-auto lg:w-[500px]">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
