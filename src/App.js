@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-    <div className="bg-[#03045e]">
+    <div className="bg-slate-900">
       <Header />
       <Banner />
       <Nav />
