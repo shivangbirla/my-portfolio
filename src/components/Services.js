@@ -31,7 +31,10 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="mt-[10vh] h-[100vh] pt-[10px]" id="services">
+    <section
+      className="mt-[10vh] h-[100vh] pt-[10px] md:pt-[20px]"
+      id="services"
+    >
       <div className="p-container">
         <div className="flex flex-col">
           <motion.div

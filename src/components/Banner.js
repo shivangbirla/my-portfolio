@@ -67,7 +67,7 @@ const Banner = () => {
             ideas to life through elegant code and pixel-perfect designs.
           </motion.p>
         </div>
-        <div className="flex flex-row items-center mt-8 gap-x-20">
+        <div className="flex flex-row items-center mt-8 gap-x-20 md:gap-x-5">
           <motion.div
             variants={fadeIn("up", 0.3)}
             initial="hidden"
