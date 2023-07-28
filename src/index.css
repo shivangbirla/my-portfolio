@@ -4,7 +4,7 @@
 
 .btn {
   background: #023e7d;
-  box-shadow: 0px 2px 10px #00b4d8;
+  box-shadow: 0px 2px 5px #00b4d8;
 }
 
 .btn:hover {
@@ -20,6 +20,11 @@
   color: #fff;
   padding: 1rem;
   border-radius: 100%;
+}
+
+/* container */
+.p-container {
+  @apply w-11/12 mx-auto;
 }
 
 @layer base {
@@ -47,7 +52,20 @@
   .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
-  }
+}
+/* tailwind.css or styles.css */
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
 }

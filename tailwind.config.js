@@ -6,16 +6,13 @@ module.exports = {
       secondary: "Rajdhani",
       tertiary: "Aldrich",
     },
-    container: {
-      padding: {
-        DEFAULT: "15px",
-      },
-    },
+
     screens: {
-      sm: "400px",
-      md: "768px",
-      lg: "960px",
-      xl: "1200px",
+      xl: { max: "1200px" },
+      lg: { max: "991px" },
+      md: { max: "767px" },
+      sm: { max: "550px" },
+      xsm: { max: "400px" },
     },
     extend: {
       colors: {

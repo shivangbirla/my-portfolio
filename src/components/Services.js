@@ -19,7 +19,7 @@ const services = [
   {
     name: "Open Source Contributor",
     description:
-      "Open source contributors actively participate in the development and improvement of open source projects, collaboration and innovation within the community.",
+      "Open source contributors actively engage in enhancing open source projects, fostering collaboration, and driving innovation within the community.",
     link: "learn more",
   },
   // {
@@ -31,10 +31,9 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="section" id="services">
-      <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row">
-          {/* text & image */}
+    <section className="mt-[10vh] h-[100vh] pt-[10px]" id="services">
+      <div className="p-container">
+        <div className="flex flex-col">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
@@ -43,7 +42,7 @@ const Services = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent mb-3 mt-2">What I Do.</h2>
-            <h3 className="h3 max-w-[455px] mb-16 text-[#ced4da]">
+            <h3 className="h3 max-w-[455px] mb-6 text-[#ced4da]">
               I develop and design things...
             </h3>
           </motion.div>
@@ -66,17 +65,17 @@ const Services = () => {
                     key={index}
                   >
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6 text-[#ced4da]">
+                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-4 text-[#ced4da]">
                         {name}
                       </h4>
                       <p className="font-secondary leading-tight text-[#adb5bd]">
                         {description}
                       </p>
                     </div>
-                    <div className="flex f;lex-col flex-1 items-end">
+                    <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
-                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                        className="btn w-9 h-9 mt-[2px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>
