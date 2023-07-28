@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex justify-between p-container items-center mt-8">
         <div>
           <img
-            className="h-10 rounded-lg border-solid border-2 border-sky-500"
+            className="h-10 md:h-9 rounded-lg border-solid border-2 border-sky-500"
             src={Logo}
             alt="logo"
           />
@@ -19,7 +19,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="btn btn-lg">My Portfolio</button>
+            <button className="btn btn-lg md:btn-sm">My Portfolio</button>
           </a>
         </div>
       </div>

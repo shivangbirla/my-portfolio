@@ -7,14 +7,14 @@ import { Link } from "react-scroll";
 const Nav = () => {
   return (
     <nav className="fixed h-[15vh] p-container">
-      <div className="bg-[#012a4a] opacity-75 h-[80px] md:h-[70px] backdrop-blur-2xl rounded-full max-w-[400px] md:max-w-[300px] mx-auto p-5 z-70 flex justify-between items-center text-2xl md:text-1xl text-white/50 md:mt-10">
+      <div className="bg-[#012a4a] opacity-75 h-[80px] md:h-[70px] backdrop-blur-2xl rounded-full max-w-[400px] md:max-w-[300px] mx-auto p-5 z-70 flex justify-between items-center text-2xl md:text-1xl text-white/50 md:fixed    md:top-[86vh] md:left-[11vw]">
         <Link
           to="home"
           activeClass="active"
           smooth={true}
           spy={true}
           offset={-200}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          className="cursor-pointer w-[60px] h-[60px] md:w-[50px] md:h-[50px] flex items-center justify-center"
         >
           <BiHomeAlt />
         </Link>
@@ -23,7 +23,7 @@ const Nav = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          className="cursor-pointer w-[60px] h-[60px] md:w-[50px] md:h-[50px] flex items-center justify-center"
         >
           <BiUser />
         </Link>
@@ -32,7 +32,7 @@ const Nav = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          className="cursor-pointer w-[60px] h-[60px] md:w-[50px] md:h-[50px] flex items-center justify-center"
         >
           <BsClipboardData />
         </Link>
@@ -41,7 +41,7 @@ const Nav = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          className="cursor-pointer w-[60px] h-[60px] md:w-[50px] md:h-[50px] flex items-center justify-center"
         >
           <BsBriefcase />
         </Link>
@@ -50,7 +50,7 @@ const Nav = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          className="cursor-pointer w-[60px] h-[60px] md:w-[50px] md:h-[50px] flex items-center justify-center"
         >
           <BsChatSquareText />
         </Link>

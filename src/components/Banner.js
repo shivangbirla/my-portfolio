@@ -11,14 +11,14 @@ const Banner = () => {
     <section className="h-[60vh]" id="home">
       {/* <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12"> */}
       {/* text */}
-      <div className="p-container mt-[8vh] md:mb-[8vh]">
+      <div className="p-container mt-[8vh] md:mb-[6vh]">
         <div className="flex-1 md:text-center font-secondary">
           <motion.p
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="leading-[1] mb-2 ml-1 text-sky-400"
+            className="leading-[1] mb-2 ml-1 text-sky-400 md:text-[16px]"
           >
             Hi, my name is
           </motion.p>
@@ -27,7 +27,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-[50px] font-bold leading-[1] text-[#ced4da] "
+            className="text-[50px] md:text-[38px] font-bold leading-[1] text-[#ced4da] "
           >
             Shivang Birla.
           </motion.h1>
@@ -36,7 +36,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="mb-6 text-[36px] font-secondary font-semibold leading-[1] "
+            className="mb-6 text-[36px] md:text-[32px] font-secondary font-semibold leading-[1] "
           >
             <span className=" text-[#ced4da] mr-4">I am a</span>
             <TypeAnimation
@@ -59,7 +59,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="mt-10 mb-5 mx-auto text-[#adb5bd] md:mt-15 md:mb-20"
+            className="mt-10 mb-5 mx-auto md:text-[16px] text-[#adb5bd] md:mt-15 md:mb-20"
           >
             I'm an avid full stack developer, combining my passion for design
             with a relentless enthusiasm for crafting seamless and intuitive
@@ -67,7 +67,7 @@ const Banner = () => {
             ideas to life through elegant code and pixel-perfect designs.
           </motion.p>
         </div>
-        <div className="flex flex-row items-center mt-8 gap-x-20 md:gap-x-5">
+        <div className="flex flex-row items-center mt-8 gap-x-20 md:gap-x-12">
           <motion.div
             variants={fadeIn("up", 0.3)}
             initial="hidden"
@@ -75,7 +75,7 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="flex max-w-max"
           >
-            <button className="btn btn-lg">Connect</button>
+            <button className="btn btn-lg md:btn-sm">Connect</button>
           </motion.div>
           {/* socials  */}
           <motion.div
@@ -83,7 +83,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex text-[30px] max-w-max gap-x-5"
+            className="flex text-[30px] max-w-max md:text-[28px] gap-x-5 md:gap-x-4"
           >
             <a href="https://www.linkedin.com/in/shivang-birla-387254253/">
               <FaLinkedinIn className="transform hover:scale-110 duration-500" />

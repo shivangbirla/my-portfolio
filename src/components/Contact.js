@@ -31,10 +31,10 @@ const Contact = () => {
           className="flex-1 flex justify-start items-center"
         >
           <div>
-            <h4 className="text-[22px] uppercase text-accent font-medium ml-2 mb-2 tracking-wide md:mb-1">
+            <h4 className="text-[22px] md:text-[20px] uppercase text-accent font-medium ml-2 mb-2 tracking-wide md:mb-1">
               Get in touch
             </h4>
-            <h2 className="text-[45px] leading-none ml-1 mb-12 text-[#ced4da] md:mb-8">
+            <h2 className="text-[45px] md:text-[35px] leading-none ml-1 mb-12 text-[#ced4da] md:mb-8">
               Let's work <br /> together
             </h2>
           </div>
@@ -53,7 +53,7 @@ const Contact = () => {
           className="flex-1 border rounded-2xl border-[#ced4da] flex flex-col gap-y-5 pb-10 p-6 items-start md:gap-y-0"
         >
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all md:text-[16px]"
             type="text"
             name="name"
             placeholder="Your name"
@@ -69,7 +69,7 @@ const Contact = () => {
             </p>
           )}
           <input
-            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all"
+            className="bg-transparent border-b py-3 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all md:text-[16px]"
             type="email"
             name="email"
             placeholder="Your email"
@@ -85,7 +85,7 @@ const Contact = () => {
             </p>
           )}
           <textarea
-            className="bg-transparent border-b py-0 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all resize-none mb-12"
+            className="bg-transparent border-b py-0 outline-none w-full placeholder:text-[#adb5bd] focus:border-accent transition-all resize-none mb-12 md:text-[16px]"
             placeholder="Your message"
             type="text"
             name="message"
@@ -103,7 +103,10 @@ const Contact = () => {
                 "Max length is 2000 char."}
             </p>
           )}
-          <button type="submit" className="btn btn-lg text-[#adb5bd] mt-0">
+          <button
+            type="submit"
+            className="btn btn-lg md:btn-sm text-[#adb5bd] mt-0"
+          >
             Send
           </button>
         </motion.form>

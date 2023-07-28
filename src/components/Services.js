@@ -44,8 +44,10 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent mb-3 mt-2">What I Do.</h2>
-            <h3 className="h3 max-w-[455px] mb-6 text-[#ced4da]">
+            <h2 className="h2 text-accent mb-3 mt-2 md:text-[24px]">
+              What I Do.
+            </h2>
+            <h3 className="h3 max-w-[455px] mb-6 text-[#ced4da] md:text-[20px]">
               I develop and design things...
             </h3>
           </motion.div>
@@ -68,17 +70,17 @@ const Services = () => {
                     key={index}
                   >
                     <div className="max-w-[476px]">
-                      <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-4 text-[#ced4da]">
+                      <h4 className="text-[20px] md:text-[18px] tracking-wider font-primary font-semibold mb-4 text-[#ced4da]">
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight text-[#adb5bd]">
+                      <p className="font-secondary leading-tight text-[#adb5bd] md:text-[16px]">
                         {description}
                       </p>
                     </div>
                     <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
-                        className="btn w-9 h-9 mt-[2px] flex justify-center items-center"
+                        className="btn w-9 h-9 mt-[2px] flex justify-center items-center md:h-7 md:w-7 md:mr-1"
                       >
                         <BsArrowUpRight />
                       </a>
