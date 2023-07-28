@@ -19,12 +19,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button
-              className="btn btn-lg"
-              onClick={() => window.open("../assets/resume.pdf", "_blank")}
-            >
-              My Portfolio
-            </button>
+            <button className="btn btn-lg">My Portfolio</button>
           </a>
         </div>
       </div>
