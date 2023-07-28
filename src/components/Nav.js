@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const Nav = () => {
   return (
     <nav className="fixed h-[15vh] p-container">
-      <div className="bg-[#012a4a] opacity-75 h-[80px] md:h-[70px] backdrop-blur-2xl rounded-full max-w-[400px] md:max-w-[300px] mx-auto p-5 z-70 flex justify-between items-center text-2xl md:text-1xl text-white/50 md:fixed    md:top-[86vh] md:left-[11vw]">
+      <div className="bg-[#012a4a] opacity-75 h-[80px] md:h-[70px] backdrop-blur-2xl rounded-full max-w-[400px] md:max-w-[300px] mx-auto p-5 z-70 flex justify-between items-center text-2xl md:text-1xl text-white/50 md:fixed md:top-[86vh] md:left-[11vw]">
         <Link
           to="home"
           activeClass="active"
